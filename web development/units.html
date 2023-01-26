@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units</title>
+    <style>
+        .container {
+            font-size: 25px;
+        }
+
+        .box1 {
+            /*font-size: 27px; */
+            /* font-size: 2em; */
+            /* 2em means 2*25 i.e 2*multiplication of parent font size*/
+            font-size: 2em;
+            /* unit relative to root font size i.e html tag 2rem means 2*html font size */
+            background-color: blue;
+        }
+
+        .box2 {
+            background-color: brown;
+            font-size: 2vw;
+            width: 50vw;
+            /*vw provide the half width of output live server screen*/
+            height: 50vh;
+            /*vh provide the half height of output live server screen*/
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p>This is a paragraph</p>
+        <div class="box1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum similique molestias totam,
+            nulla voluptates error veritatis eum a modi laborum, alias iste praesentium itaque eligendi quos,
+            exercitationem id. Libero, alias?
+
+        </div>
+        <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae reprehenderit illo quia
+            quibusdam. Modi qui iure dignissimos quam nam blanditiis.</div>
+    </div>
+
+</body>
+
+</html>
